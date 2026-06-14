@@ -12,6 +12,8 @@ from numpy.typing import ArrayLike
 
 
 # pylint: disable=too-few-public-methods
+# Esta clase es una abstracción base para LDA y QDA,
+# por lo que no se necesitan muchos métodos públicos.
 class BaseDiscriminantAnalysis:
     """
     Clase base para Análisis Discriminante (LDA y QDA).
