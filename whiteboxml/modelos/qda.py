@@ -1,8 +1,6 @@
 """
 Implementación del Análisis Discriminante Cuadrático (QDA).
 
-:authors: Gonzalo Ramirez
-:date: 09/06/2026
 """
 
 from typing import Optional, cast
@@ -17,8 +15,6 @@ class QDA(BaseDiscriminantAnalysis):
 
     Instancia el modelo asumiendo covarianza distinta por clase.
 
-    :authors: Gonzalo Ramirez
-    :date: 09/06/2026
     """
 
     def __init__(self) -> None:
